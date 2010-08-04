@@ -7,10 +7,14 @@ This is a collection of file templates for Xcode.
 Clone this repository somewhere on your filesystem, and then execute the
 following command from the newly-cloned repository directory:
 
-    ln -s "$PWD/File Templates" ~/Library/Application\ Support/Developer/Shared/Xcode
+    ln -s "$PWD"/File\ Templates ~/Library/Application\ Support/Developer/Shared/Xcode
 
 If you already have a File Templates directory in that location, you may instead choose
-to symlink each individual subfolder in to the existing directory.
+to symlink each individual subfolder in to the existing directory:
+
+    for f in "$PWD"/File\ Templates/*; do
+        ln -s "$f" ~/Library/Application\ Support/Developer/Shared/Xcode/File\ Templates/
+    done
 
 ### USAGE
 
