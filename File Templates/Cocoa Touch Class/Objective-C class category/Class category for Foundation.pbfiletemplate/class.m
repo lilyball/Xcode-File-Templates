@@ -7,7 +7,6 @@
 //
 
 «OPTIONALHEADERIMPORTLINE»
-
 @implementation <#Class#> («FILEBASENAMEASIDENTIFIER»)
 
 @end
