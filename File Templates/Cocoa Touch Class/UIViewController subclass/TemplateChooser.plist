@@ -1,0 +1,27 @@
+{
+	Checkboxes = (
+		{
+			Key = Pad;
+			Title = "Targeted for iPad";
+		},
+		{
+			Key = Table;
+			Title = "UITableViewController subclass";
+		},
+		{
+			Key = XIB;
+			Title = "With XIB for user interface";
+		},
+
+	);
+	TemplateSelection = {
+		"" = "UIViewController subclass for iPhone";
+		Pad = "UIViewController subclass for iPad";
+		Table = "UITableViewController subclass for iPhone";
+		PadTable = "UITableViewController subclass for iPad";
+		XIB = "UIViewController subclass with XIB for iPhone";
+		PadXIB = "UIViewController subclass with XIB for iPad";
+		TableXIB = "UITableViewController subclass with XIB for iPhone";
+		PadTableXIB = "UITableViewController subclass with XIB for iPad";
+	};
+}

@@ -1,0 +1,8 @@
+{
+	MainTemplateFile = "class.m";
+	"CounterpartTemplateFile" = "class.h";
+	Description = "An Objective-C class which is a subclass of UIViewController, with an optional header file which includes the <UIKit/UIKit.h> header. A XIB file containing a view configured for this View Controller is also included.";
+	"ImplicitCounterpartTemplateFiles" = {
+		"view.xib.unpreprocessed" = "%@.xib";
+	};
+}

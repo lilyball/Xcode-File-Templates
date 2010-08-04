@@ -1,0 +1,5 @@
+{
+	MainTemplateFile = "class.m";
+	CounterpartTemplateFile = "class.h";
+	Description = "An Objective-C category, with an optional header which includes the <Foundation/Foundation.h> header.";
+}

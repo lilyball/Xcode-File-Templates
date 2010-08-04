@@ -1,0 +1,18 @@
+{
+	OptionsLabel = "Imports";
+	PopupMenu = (
+		{
+			Key = Foundation;
+			Title = Foundation;
+		},
+		{
+			Key = UIKit;
+			Title = UIKit;
+		}
+	);
+	TemplateSelection = {
+		"" = "Class category for Foundation";
+		Foundation = "Class category for Foundation";
+		UIKit = "Class category for UIKit";
+	};
+}
