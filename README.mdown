@@ -1,0 +1,18 @@
+## Xcode File Templates
+
+This is a collection of file templates for Xcode.
+
+### INSTALLATION
+
+Clone this repository somewhere on your filesystem, and then execute the
+following command from the newly-cloned repository directory:
+
+    ln -s "$PWD/File Templates" ~/Library/Application\ Support/Developer/Shared/Xcode
+
+If you already have a File Templates directory in that location, you may instead choose
+to symlink each individual subfolder in to the existing directory.
+
+### USAGE
+
+In Xcode select the File->New File… menu item. There should be a section called "User Templates"
+which contains all of the file templates.
