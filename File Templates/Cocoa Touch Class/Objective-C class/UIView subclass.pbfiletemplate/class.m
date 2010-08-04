@@ -13,9 +13,20 @@
 
 @implementation «FILEBASENAMEASIDENTIFIER»
 
+- (void)commonInit {
+    // Initialization code
+}
+
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
-        // Initialization code
+        [self commonInit];
+    }
+    return self;
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super initWithCoder:aDecoder]) {
+        [self commonInit];
     }
     return self;
 }
